@@ -5,7 +5,7 @@ We propose a robust and efficient boundary point detection method based on Local
 # How To Run
 > **MATLAB**
 
-MATLAB code of LoDD is in the 'lodd_mat' file, where the 'lodd' function provides multiple hyperparameters for user configuration as follows 
+MATLAB code of LoDD is in the 'lodd_mat' file, where the 'lodd' function provides two parameters for user configuration as follows 
 ```matlab
 function [int_id, bou_id] = LoDD(X, varargin)
 %   This function returns the id of internal and boundary points of the N by D matrix X. Each row in X represents an observation.
