@@ -87,7 +87,7 @@ def lodd(
                        Default: 20
         'ratio'      - A positive scalar specifying the ratio of boundary points.
                        Default: 0.1
-        """
+    """
 ```
 
 The 'main1.py' file provides an example for detecting boundary points
