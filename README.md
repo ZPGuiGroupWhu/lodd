@@ -4,9 +4,24 @@ We propose a robust and efficient boundary point detection method based on Local
 
 # Datasets
 | Type | Dataset | Samples | Features | Classes |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| :---: | :---: | :---: | :---: | :---: |
 | Synthetic | DS1 | 459 | 2 | 6 |
-| Content Cell  | Content Cell  |
+| Synthetic | DS2 | 1177 | 2 | 4 |
+| Synthetic | DS3 | 1310 | 3 | 4 |
+| UCI | Breast-Cancer | 683 | 10 | 2 |
+| UCI | PenDigits | 10,992 | 16 | 10 |
+| UCI | Control | 600 | 60 | 6 |
+| UCI | Mice | 1,077 | 77 | 8 |
+| Digit Images | Digits | 5,620 | 8×8 | 10 |
+| Digit Images | MNIST10k | 10,000 | 28×28 | 10 |
+| Face Images | Yale | 165 | 64×64 | 15 |
+| Face Images | FEI-1 | 700 | 480×640 | 50 |
+| scRNA-seq | Segerstolpe | 2,133 | 22,757 | 13 |
+| scRNA-seq | Xin | 1,449 | 33,889 | 4 |
+| Text Documents | TDT2-5 | 2,173 | 36,771 | 5 |
+| Text Documents | TDT2-10 | 4,315 | 36,771 | 10 |
+| Point Cloud | Sphere | 46,299 | 3 | 1 |
+| Point Cloud | Surf | 47,046 | 3 | 1 |
 
 # How To Run
 > **MATLAB**
