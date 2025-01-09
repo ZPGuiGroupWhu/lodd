@@ -1,2 +1,2 @@
-# lodd
-LoDD considers that internal points are surrounded by neighboring points in all directions, while neighboring points of a boundary point tend to be distributed only in a certain directional range. 
+# Lodd
+We propose a robust and efficient boundary point detection method based on Local Direction Dispersion (LoDD). The core of boundary point detection lies in measuring the difference between boundary points and internal points. It is a common observation that an internal point is surrounded by its neighbors in all directions, while the neighbors of a boundary point tend to be distributed only in a certain directional range. By considering this observation, we adopt density-independent K-Nearest Neighbors (KNN) method to determine neighboring points and design a centrality metric LoDD using the eigenvalues of the covariance matrix to depict the distribution uniformity of KNN. 
