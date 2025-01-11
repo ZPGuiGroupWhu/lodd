@@ -26,8 +26,6 @@ for i=1:n
     LoDD(i) = w*lamda_sum^2 + (d*(1-w)/(d-1))*((lamda_sum^2-lamda_sum_2));
 end
 
-sort_ang = sort(LoDD,'ascend');
-lodd_thre = sort_ang(round(n*ratio));
-bou_id = find(LoDD <= lodd_thre);
+[~, bou_id] = mink(LoDD, round(n*ratio));
 int_id = setdiff(1:n, bou_id);
 end
