@@ -1,9 +1,9 @@
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.neighbors import NearestNeighbors
-from InitialClusCenter import initial_clus_center
-from GetRatio import get_ratio
-from lodd import lodd
+from Functions.InitialClusCenter import initial_clus_center
+from Functions.GetRatio import get_ratio
+from Functions.lodd import lodd
 
 def mod_kmeans(
         X,
