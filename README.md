@@ -115,7 +115,7 @@ def lodd(
 The 'main1.py' file provides an example for detecting boundary points
 ```python
 import numpy as np
-from lodd import lodd
+from Functions.lodd import lodd
 import time
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
@@ -150,11 +150,11 @@ plt.show()
 The 'main2.py' file provides an example for clustering with K-means
 ```python
 from sklearn.preprocessing import MinMaxScaler
-from ModKmeans import mod_kmeans
+from Functions.ModKmeans import mod_kmeans
 import numpy as np
 import pandas as pd
 from sklearn.metrics import normalized_mutual_info_score
-from getACC import acc
+from Functions.getACC import acc
 
 # Input data
 raw_data = pd.read_csv('Datasets/Control.csv', header=None)
