@@ -1,5 +1,11 @@
 import numpy as np
-from lodd import lodd
+from Functions.border import border
+from Functions.robp import robp
+from Functions.nc import nc
+from Functions.dcm import dcm
+from Functions.ldiv import ldiv
+from Functions.lodd import lodd
+
 import time
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
